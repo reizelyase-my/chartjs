@@ -36,59 +36,6 @@
             "label": "<=RM 1,000",
             "amountTo": 1000,
             "amountFrom": 0
-        },
-        {
-            "value": 10000,
-            "products": [
-                "Unit Trust",
-                "Insurance",
-                "Shares",
-                "Gold & Silver"
-            ],
-            "label": "RM 1,001 - RM 10,000",
-            "amountTo": 10000,
-            "amountFrom": 1001
-        },
-        {
-            "value": 50000,
-            "products": [
-                "Unit Trust",
-                "Insurance",
-                "Shares",
-                "Gold & Silver"
-            ],
-            "label": "RM 10,001 - RM 50,000",
-            "amountTo": 50000,
-            "amountFrom": 10001
-        },
-        {
-            "value": 100000,
-            "products": [
-                "Unit Trust",
-                "Insurance",
-                "Shares",
-                "Gold & Silver",
-                "Dual Currency Investment",
-                "Structured Investment"
-            ],
-            "label": "RM 50,001 - RM 100,000",
-            "amountTo": 100000,
-            "amountFrom": 50001
-        },
-        {
-            "value": 1000000000000000,
-            "products": [
-                "Unit Trust",
-                "Insurance",
-                "Shares",
-                "Gold & Silver",
-                "Dual Currency Investment",
-                "Structured Investment",
-                "Retail Bonds"
-            ],
-            "label": "RM 100,000 - RM 250,000+",
-            "amountTo": 1000000000000000,
-            "amountFrom": 100001
         }
     ],
     "promotion": {
