@@ -1,0 +1,28 @@
+{
+  "chartData": [
+     {
+        "level": 1,
+        "title": "Total Assets",
+        "description": "Assets",
+        "currency": "RM",
+        "hasChild": false,
+        "itemKey": "totalAssets",
+        "allocatedValue": "13979877069.39",
+        "allocatedPercentage": "100.00",
+        "subTitle": "13979877069.39",
+        "colorHex": "#5C65D9"
+     },
+     {
+        "level": 1,
+        "title": "Total Liabilities",
+        "description": "Liabilities",
+        "currency": "RM",
+        "hasChild": false,
+        "itemKey": "totalLiabilities",
+        "allocatedValue": "-1737.38",
+        "allocatedPercentage": "0.00",
+        "subTitle": "-1737.38",
+        "colorHex": "#F7B500"
+     }
+  ]
+}
