@@ -1,0 +1,133 @@
+{
+  "marketValueAsOf": "18 February 2019",
+  "currency": "RM ",
+  "investmentRange": [
+      {
+          "value": 1000,
+          "products": [
+              ""
+          ],
+          "label": "<=RM 1,000",
+          "amountTo": 1000,
+          "amountFrom": 0
+      },
+      {
+          "value": 10000,
+          "products": [
+              "Unit Trust",
+              "Insurance",
+              "Shares",
+              "Gold & Silver"
+          ],
+          "label": "RM 1,001 - RM 10,000",
+          "amountTo": 10000,
+          "amountFrom": 1001
+      },
+      {
+          "value": 50000,
+          "products": [
+              "Unit Trust",
+              "Insurance",
+              "Shares",
+              "Gold & Silver"
+          ],
+          "label": "RM 10,001 - RM 50,000",
+          "amountTo": 50000,
+          "amountFrom": 10001
+      },
+      {
+          "value": 100000,
+          "products": [
+              "Unit Trust",
+              "Insurance",
+              "Shares",
+              "Gold & Silver",
+              "Dual Currency Investment",
+              "Structured Investment"
+          ],
+          "label": "RM 50,001 - RM 100,000",
+          "amountTo": 100000,
+          "amountFrom": 50001
+      },
+      {
+          "value": 1000000000000000,
+          "products": [
+              "Unit Trust",
+              "Insurance",
+              "Shares",
+              "Gold & Silver",
+              "Dual Currency Investment",
+              "Structured Investment",
+              "Retail Bonds"
+          ],
+          "label": "RM 100,000 - RM 250,000+",
+          "amountTo": 1000000000000000,
+          "amountFrom": 100001
+      }
+  ],
+  "promotion": {
+      "wealthCategoryIdx": 1,
+      "title": "Open your Maybank gold investment plan",
+      "description": "Some description",
+      "wealthCategory": "Gold & Silver"
+  },
+  "totalMarketValue": "357874.17",
+  "dynamicTabs": [
+      {
+          "key": "netWorth",
+          "title": "Net Worth",
+          "isActive": true
+      }, 
+      {
+          "key": "assetClassification",
+          "title": "Asset classification",
+          "isActive": false
+      }
+  ],
+  "prompter": {
+      "type": "wealthPrompter",
+      "content": {
+          "header": {
+              "mode": "h4",
+              "label": "Is your future planned?"
+          },
+          "text": {
+              "mode": "p",
+              "label": "Savings alone may not be enough. Find out how to make your money grow and secure your future funds."
+          },
+          "button": {
+            "action": "redirection",
+            "url": "apply/accounts?productType=financialPlanner",
+            "text": "Get Started",
+            "mode": "success",
+            "size": "large"
+          }
+      }
+  },
+  "wealthFilters": [
+      {
+          "label" :"My Assets",
+          "value":"myAssets"
+      },
+      {
+          "label" : "All Liabilities",
+          "value":"allLiabilities"
+      }    
+  ],
+  "wealthTabActionUrl": "/getWealthTabDetails/assetClassification/index.json",
+  "wealthListUrl": "/getWealthTabDetails/wealthAction/index.json",
+  "wealthFinancialTabs": [
+      {
+          "key": "myWealth",
+          "title": "My Wealth",
+          "isActive": true,
+          "actionUrl":"/getWealthTabDetails/wealthAction/index.json"
+      }, 
+      {
+          "key": "myFinacialPlanner",
+          "title": "My Finacial Planner",
+          "isActive": false,
+          "actionUrl":"/getWealthTabDetails/planAction/index.json"
+      }
+  ]
+}
